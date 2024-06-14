@@ -1,0 +1,105 @@
+
+/* css thanh mav */
+.nav {
+    display: inline-block;
+}
+.nav > ul > li {
+    display: inline-block;
+    position: relative;
+}
+.nav ul li ul {
+    display: block;
+    background-color: #ccc;
+    width: 160px;
+    transform: translate(0px, 20px);
+}
+.nav ul li ul li {
+    font-size: 15px;
+    display: none;
+    padding-left: 10px;
+}
+.nav ul li:hover ul li {
+    display: inline-block;
+    cursor: pointer;   
+    width: 100%;
+}
+.navbar li  > .nav-link:hover , .login-ic:hover , .nav-login a:hover {
+    color: #e94b00;
+}
+.navbar li {
+    display: block;
+}
+.navbar li ul li {
+    margin-top: 10px;
+    border-bottom: 1px dashed #e94b00;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transform: translate(0px, -10px);
+}
+.nav-link {
+    padding-bottom: 22px;
+}
+
+.nav-login {
+    display: block;
+
+}  
+.icon-login i:hover {
+    cursor: pointer;
+}
+.icon-login ul {
+    margin-top: 10px;
+    font-family: poppins;
+    position: absolute;
+    transform: translate(0, 91px);
+    background: #ccc;
+    padding: 10px;
+}
+.icon-login ul li {
+    border-bottom: 1px dashed #e94b00;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+/* ket thuc */
+/* hop can giua */
+.container-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ket thuc can giua */
+/* list book */
+.list-img a:hover {
+    color: #e94b00;
+    transition: all 0.3s ease;
+}
+
+
+/* footer */
+.lis-footer h3 {
+    font-size: 20px;
+    color: #e94b00;
+}
+.lis-footer li {
+    margin-top: 10px;
+    font-size: 16px;
+}
+.lis-footer li:hover {
+    color: #e94b00;
+    cursor: pointer;
+}
+/*  */
+
+/* table */
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 20px;
+  }
+  

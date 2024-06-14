@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../public/css/tailwind.css">
+    <link rel="stylesheet" href="../Css/admin.css">
+    <link rel="stylesheet" href="../Css/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Quản lý người dùng</title>
+</head>
+<body>
+    <div class="grid grid-flow-col grid-cols-[max-content] h-[100vh]" >
+        <!-- gui content -->
+        <div class="gui-content pt-[30px] bg-[#001C41] text-[#fff] lg:overflow-auto ">
+            <div class="avatar flex flex-col justify-center items-center ">
+                <img src="../img/avatar-ad.jpg" alt="" class="w-[150px] h-[150px] rounded-[50%] border-[#fff] border-[2px] mb-5">
+                <h2 class="text-center mb-[10px] font-semibold text-[16px]">Sỹ Hông Mạp</h2>
+                <p class="border-b-[1px] border-[#fff] mb-[10px] pb-[10px] italic opacity-[0.5]">Chào mừng bạn đã trở lại</p>
+            </div>
+            <div class="nav-content">
+                <ul class="nav-admin">
+                    <a href="manager_user.html"><li>Quản lý người dùng</li></a>
+                    <a href="manager_feedback.html"><li>Quản lý feedback nhà ăn</li></a>
+                    <a href="manager_contact.html"><li>Quản lý liên hệ</li></a>
+                    <a href="manager_poi.html"><li>Quản lý bảng điểm</li></a>
+                    <a href=""><li>Quản lý thời khóa biểu</li></a>
+                </ul>
+            </div>
+        </div>
+            <div class="content ">
+                <div class="pl-8 mt-[30px] border-b">
+                        <h1 class="text-[32px] font-semibold text-[#fe5e0e]">Quản lý người dùng</h1>
+                        <ul class="menu-admin">
+                            <li class="iteam-user1">View User</li>
+                            <li class="iteam-user2">Add User</li>
+                            <li class="iteam-user3">Edit User</li>
+                        </ul>
+                </div>
+                <!-- noi dung chinh -->
+                <div class="search-body pt-8 ml-8 flex">
+                    <div class="">
+                        <input type="text" placeholder="Tìm kiếm" class="border-[2px] rounded-[20px] outline-none focus:border-[#7c5fe3] h-10 pl-[20px] ">
+                    <button class="ml-8 bg-[#f5f5f5] h-10 pl-[30px] pr-[30px] rounded-[10px] text-[#000] font-medium border-[2px] border-[#7c5fe3] ">Tìm kiếm</button>
+                    </div>
+                    <div class="hidden btn-edit">
+                        <button class="ml-8 bg-[#f5f5f5] h-10 pl-[30px] pr-[30px] rounded-[10px] text-[#000] font-medium border-[2px] border-[#7c5fe3] ">Hiển thị thông tin chỉnh sửa</button>
+                    </div>
+                </div>
+                <div class="view">
+                    <!--  -->
+                    <!-- hien thi view het -->
+                    <div class="view-user block">
+                        <div class=" text-[18px] mt-8 mb-8 ml-6 mr-6 flex items-center justify-center flex-col">
+                            <div class="border border-[#e6e9ed] rounded-lg shadow-xl">
+                              <table>
+                                <thead class="text-[18px] p-4">
+                                    <tr>
+                                        <th>ID User</th>
+                                        <th>Họ tên</th>
+                                        <th>Ngày sinh</th>
+                                        <th>Địa chỉ</th>
+                                        <th>Email</th>
+                                        <th>SDT</th>
+                                        <th>Ngày tạo</th>
+                                        <th>Role</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="body-table">
+                                    <!--  -->
+                                </tbody>
+                              </table>
+                        </div>
+                        <!-- tk mk -->
+                        </div>
+                        <div class="mx-5 mt-10 mb-5 rounded-xl border border-[#e6e9ed] shadow-xl text-[16px]">
+                        <table>
+                           <thead>
+                            <tr>
+                                <th>ID User</th>
+                                <th>Họ tên</th>
+                                <th>Tài khoản</th>
+                                <th>Mật khẩu</th>
+                            </tr>
+                           </thead>
+                            <tbody class="body-account">
+                            </tbody>
+                        </table>
+                        </div>
+                    </div>
+                    <!-- hien thi add user -->
+                    <div class="add-user hidden ">
+                        <div class="mt-8 mb-8 ml-6 mr-6 flex">
+                            <div class="flex-1 border border-[#e6e9ed] rounded-lg shadow-xl ">
+                            <form action="" class="mt-5 ml-5">
+                                <div class="text-center my-5 text-[24px] font-semibold text-[#fe5e0e]">
+                                    <h1>Thông tin user</h1>
+                                </div>
+                                    <div class="list-form flex mt-5">
+                                    <label for="" class="pr-2 pl-2 w-[20%] text-[20px]">ID User</label>
+                                    <input type="text" placeholder="Nhập ID User" class="ID border rounded-lg  outline-none w-[70%] p-x-[6px] p-y-[12px] pl-3 h-10">
+                                </div>
+                                <div class="list-form flex mt-5">
+                                    <label for="" class="pr-2 pl-2 w-[20%] text-[20px]">Họ tên</label>
+                                    <input type="text" placeholder="Nhập họ tên" class="Name border rounded-lg  outline-none w-[70%] p-x-[6px] p-y-[12px] pl-3 h-10">
+                                </div>
+                                <div class="list-form flex mt-5">
+                                    <label for="" class="pr-2 pl-2 w-[20%] text-[20px]">Ngày sinh</label>
+                                    <input type="text" placeholder="Nhập ngày sinh" class="Date border rounded-lg  outline-none w-[70%] p-x-[6px] p-y-[12px] pl-3 h-10">
+                                </div>
+                                <div class="list-form flex mt-5">
+                                    <label for="" class="pr-2 pl-2 w-[20%] text-[20px]">Địa chỉ</label>
+                                    <input type="text" placeholder="Nhập địa chỉ" class="Address border rounded-lg  outline-none w-[70%] p-x-[6px] p-y-[12px] pl-3 h-10">
+                                </div>
+                                <div class="list-form flex mt-5">
+                                    <label for="" class="pr-2 pl-2 w-[20%] text-[20px]">Email</label>
+                                    <input type="text" placeholder="Nhập email" class="Email border rounded-lg  outline-none w-[70%] p-x-[6px] p-y-[12px] pl-3 h-10">
+                                </div>
+                                <div class="list-form flex mt-5">
+                                    <label for="" class="pr-2 pl-2 w-[20%] text-[20px]">SDT</label>
+                                    <input type="text" placeholder="Nhập sdt" class="SDT border rounded-lg  outline-none w-[70%] p-x-[6px] p-y-[12px] pl-3 h-10">
+                                </div>
+                                <div class="list-form flex mt-5">
+                                    <label for="" class="pr-2 pl-2 w-[20%] text-[20px]">Ngày tạo</label>
+                                    <input type="text" placeholder="Nhập ngày tạo" class="CreateDate border rounded-lg  outline-none w-[70%] p-x-[6px] p-y-[12px] pl-3 h-10">
+                                </div>
+                                <div class="list-form flex mt-5 mb-5">
+                                    <label for="" class="pr-2 pl-2 w-[20%] text-[20px]">Role</label>
+                                    <input type="text" placeholder="Nhập role" class="role CreateDate border rounded-lg  outline-none w-[70%] p-x-[6px] p-y-[12px] pl-3 h-10">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="border border-[#e6e9ed] rounded-lg shadow-xl ml-5 w-[30%]">
+                            <form action="">
+                                <div class="text-center my-5 text-[24px] font-semibold text-[#fe5e0e]">
+                                    <h1>Tạo tài khoản</h1>
+                                </div>
+                                <div class="mt-5 ml-5 mr-5 flex flex-col">
+                                    <label class="text-[20px]" for="">Tên người dùng</label>
+                                    <input class="Account mt-4 border h-10 rounded-lg outline-none pl-2" type="text" name="" id="">
+                                </div>
+                                <div class="flex flex-col">
+                                    <div class="mt-5 ml-5 mr-5 flex flex-col">
+                                        <label class="text-[20px]" for="">Mật khẩu</label>
+                                        <input class="Pass mt-4 border h-10 rounded-lg outline-none pl-2" type="text">
+                                    </div>
+                                    <div class="mt-5 ml-5 mr-5 flex flex-col">
+                                        <label class="text-[20px]" for="">Nhập lại mật khẩu</label>
+                                        <input class="RePass mt-4 border h-10 rounded-lg outline-none pl-2" type="text">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- end -->
+                    <!-- hien thi edit user -->
+                    <div class="edit-user hidden ">
+                       <div class="flex justify-center items-center">
+                        <div class="">
+                        <div class="edit-iteam hidden border border-[#e6e9ed] rounded-xl shadow-xl mt-5 mb-5">
+                            <form action="" class="my-5 ml-5 ">
+                                <div class="text-center my-5 text-[24px] font-semibold text-[#fe5e0e]">
+                                    <h1>Chỉnh sửa thông tin user</h1>
+                                </div>
+                                    <div class="list-form flex mt-5">
+                                    <label for="" class="pr-2 pl-2 w-[20%] text-[20px]">ID</label>
+                                    <input type="text" placeholder="Nhập ID" class="UID border rounded-lg  outline-none w-[50%] p-x-[6px] p-y-[12px] pl-3 h-10">
+                                </div>
+                                 <div class="list-form flex mt-5">
+                                    <label for="" class="pr-2 pl-2 w-[20%] text-[20px]">SDT</label>
+                                    <input type="text" placeholder="Nhập SDT" class="USDT border rounded-lg  outline-none w-[50%] p-x-[6px] p-y-[12px] pl-3 h-10">
+                                </div>
+                                <div class="list-form flex mt-5">
+                                    <label for="" class="pr-2 pl-2 w-[20%] text-[20px]">Địa chỉ</label>
+                                    <input type="text" placeholder="Nhập Address" class="UAddress border rounded-lg  outline-none w-[50%] p-x-[6px] p-y-[12px] pl-3 h-10">
+                                </div>
+                                <div class="list-form flex mt-5">
+                                    <label for="" class="pr-2 pl-2 w-[20%] text-[20px]">Email</label>
+                                    <input type="text" placeholder="Nhập Email" class="UEmail border rounded-lg  outline-none w-[50%] p-x-[6px] p-y-[12px] pl-3 h-10">
+                                </div>
+                                <div class="list-form flex mt-5">
+                                    <label for="" class="pr-2 pl-2 w-[20%] text-[20px]">Ngày tạo</label>
+                                    <input type="text" placeholder="Nhập ngay tao" class="UCreateDate border rounded-lg  outline-none w-[50%] p-x-[6px] p-y-[12px] pl-3 h-10">
+                                </div>
+                                <div class="list-form flex mt-5">
+                                    <label for="" class="pr-2 pl-2 w-[20%] text-[20px]">Họ tên</label>
+                                    <input type="text" placeholder="Nhập họ tên" class="UName border rounded-lg  outline-none w-[50%] p-x-[6px] p-y-[12px] pl-3 h-10">
+                                </div>
+                                <div class="list-form flex mt-5">
+                                    <label for="" class="pr-2 pl-2 w-[20%] text-[20px]">Ngày sinh</label>
+                                    <input type="text" placeholder="Nhập ngày sinh" class="UDate border rounded-lg  outline-none w-[50%] p-x-[6px] p-y-[12px] pl-3 h-10">
+                                </div>
+                                <div class="list-form flex mt-5 mb-5">
+                                    <label for="" class="pr-2 pl-2 w-[20%] text-[20px]">Role</label>
+                                    <input type="text" placeholder="Nhập role" class="Urole border rounded-lg  outline-none w-[50%] p-x-[6px] p-y-[12px] pl-3 h-10">
+                                </div>
+                                <div class="list-form flex mt-5">
+                                    <label for="" class="pr-2 pl-2 w-[20%] text-[20px]">Tài khoản</label>
+                                    <input type="text" placeholder="Nhập tài khoản" class="UAccount border rounded-lg  outline-none w-[50%] p-x-[6px] p-y-[12px] pl-3 h-10">
+                                </div>
+                                <div class="list-form flex mt-5">
+                                    <label for="" class="pr-2 pl-2 w-[20%] text-[20px]">Mật khẩu</label>
+                                    <input type="text" placeholder="Nhập mật khẩu" class="UPass border rounded-lg  outline-none w-[50%] p-x-[6px] p-y-[12px] pl-3 h-10">
+                                </div>
+                            </form>
+                        </div>
+                        <div class=" mt-8 mb-8 ml-6 mr-6 flex items-center justify-center">
+                            <div class="border border-[#e6e9ed] rounded-xl shadow-xl">
+                              <table class="border border-[#e6e9ed] rounded-xl w-[100%]">
+                                <thead class="text-[16px] p-4">
+                                    <tr>
+                                        <th>ID</th>
+                                        <th>Họ tên</th>
+                                        <th>Ngày sinh</th>
+                                        <th>Role</th>
+                                        <th>Tài khoản</th>
+                                        <th>Mật khẩu</th>
+                                        <th>Chức năng</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="body-edit">
+                                    <tr class="user-iteam-">
+                                        <td>SV01BK</td>
+                                        <td>Le Van a</td>
+                                        <td>11-11-1111</td>
+                                        <td><select class="pl-2 border rounded-lg h-10 cursor-pointer outline-none" name="" id="">
+                                            <option value="">Giáo viên</option>
+                                            <option value="">Học Sinh</option>
+                                            <option value="">Tổ trưởng bộ môn</option>
+                                        </select></td>
+                                        <td>SV01BK</td>
+                                        <td>Syhongmap</td>
+                                        <td>
+                                            
+                                            <!-- option active -->
+                                            <div class=" flex justify-center items-center">
+                                                <i class="icon-edit ml-5 mt-5 mb- 5 cursor-pointer hover:text-[#fe5e0e] fa-solid fa-user-pen"></i>
+                                                <i class="icon-delete ml-5 mt-5 mb- 5 cursor-pointer hover:text-[#fe5e0e] fa-solid fa-trash"></i>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <!--  -->
+                                </tbody>
+                              </table>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- viet view js -->
+                </div>
+            </div>
+                <div class="container-center mb-5 create hidden">
+                    <button type="button" class="hidden btn-Create ml-8 bg-[#f5f5f5] h-10 pl-[30px] pr-[30px] rounded-[10px] text-[#000] font-semibold border-[2px] border-[#7c5fe3] hover:bg-[#fe5e0e] hover:text-[#fff]">Tạo mới</button>
+                </div> 
+    </div>
+    </div>
+    <!-- ket thuc -->
+    
+    <script src="../js/admin.js"></script>
+</body>
+</html>
+

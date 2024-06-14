@@ -1,0 +1,1189 @@
+{
+    "MAP_MONHOC": [
+      {
+        "id_monhoc": "mh001",
+        "id": "1",
+        "ma_caphoc": 1,
+        "ten_monhoc": "toan",
+        "ma_monhoc_cu": "van",
+        "ma_monhoc_moi": "anh"
+      },
+      {
+        "id_monhoc": "mh002",
+        "id": "2",
+        "ma_caphoc": 2,
+        "ten_monhoc": "li",
+        "ma_monhoc_cu": "hoa",
+        "ma_monhoc_moi": "anh"
+      },
+      {
+        "id_monhoc": "mh003",
+        "id": "3",
+        "ma_caphoc": 3,
+        "ten_monhoc": "theduc",
+        "ma_monhoc_cu": "toan",
+        "ma_monhoc_moi": "sinh"
+      },
+      {
+        "id_monhoc": "mh004",
+        "id": "4",
+        "ma_caphoc": 4,
+        "ten_monhoc": "congdan",
+        "ma_monhoc_cu": "li",
+        "ma_monhoc_moi": "hoa"
+      },
+      {
+        "id_monhoc": "mh005",
+        "id": "5",
+        "ma_caphoc": 5,
+        "ten_monhoc": "van",
+        "ma_monhoc_cu": "su",
+        "ma_monhoc_moi": "dia"
+      }
+    ],
+    "Role": [
+      {
+        "RoleName": "Admin",
+        "id": "1"
+      },
+      {
+        "id_role": "rl003",
+        "id": "3",
+        "RoleID": 3,
+        "RoleName": "hocsinh",
+        "Description": "f11",
+        "ProcessType": "hgggggjj"
+      },
+      {
+        "id_role": "rl004",
+        "id": "4",
+        "RoleID": 4,
+        "RoleName": "giaovien",
+        "Description": "g11",
+        "ProcessType": "bvcbvc"
+      },
+      {
+        "id": "",
+        "RoleName": ""
+      },
+      {
+        "id": "A90",
+        "RoleName": "admin"
+      }
+    ],
+    "DM_LOP": [
+      {
+        "id_lop": "lp001",
+        "id": "1",
+        "ma_lop": 1423,
+        "ma_caphoc": "c12",
+        "ten_lop": "10A1"
+      },
+      {
+        "id_lop": "lp002",
+        "id": "2",
+        "ma_lop": 2313,
+        "ma_caphoc": "a12",
+        "ten_lop": "10A2"
+      },
+      {
+        "id_lop": "lp003",
+        "id": "3",
+        "ma_lop": 3323,
+        "ma_caphoc": "a13",
+        "ten_lop": "10A3"
+      },
+      {
+        "id_lop": "lp004",
+        "id": "4",
+        "ma_lop": 4343,
+        "ma_caphoc": "a14",
+        "ten_lop": "11A1"
+      },
+      {
+        "id_lop": "lp005",
+        "id": "5",
+        "ma_lop": 5454,
+        "ma_caphoc": "a15",
+        "ten_lop": "11A2"
+      },
+      {
+        "id_lop": "lp006",
+        "id": "6",
+        "ma_lop": 5454,
+        "ma_caphoc": "a16",
+        "ten_lop": "11A3"
+      }
+    ],
+    "Users": [
+      {
+        "UserID": "1",
+        "UserName": "Le Van Sy ",
+        "Date": "15-08-2003",
+        "id": "1",
+        "Address": "Ha long - Quang Ninh",
+        "Email": "Syhongmap@gmail.com",
+        "CreateDate": "11-06-2024",
+        "SDT": "0356819502"
+      },
+      {
+        "Date": "11-11-1111",
+        "CreateDate": "6-6-2024",
+        "id_us": "us003",
+        "id": "3",
+        "UserID": 3,
+        "UserName": "anh",
+        "Password": "anh123",
+        "FullName": "nguyenducanh",
+        "Address": "haiduong",
+        "PhoneNumber": "077777",
+        "Email": "ducanh@gmail.com",
+        "Description": "depzai",
+        "PositionID": "9880",
+        "DepartmentID": "anh",
+        "ma_gioitinh": "1"
+      },
+      {
+        "Date": "11-11-1111",
+        "CreateDate": "6-6-2024",
+        "id_us": "us004",
+        "id": "4",
+        "UserID": 4,
+        "UserName": "van",
+        "Password": "van123",
+        "FullName": "nguyenducvan",
+        "Address": "haiduong",
+        "PhoneNumber": "06666",
+        "Email": "ducvan@gmail.com",
+        "Description": "depzai",
+        "PositionID": "6456",
+        "DepartmentID": "li",
+        "ma_gioitinh": "1"
+      },
+      {
+        "id": "",
+        "UserID": "",
+        "UserName": "",
+        "Date": "",
+        "Address": "",
+        "Email": "",
+        "PhoneNumber": "",
+        "CreateDate": ""
+      },
+      {
+        "id": "A90",
+        "UserID": "A90",
+        "UserName": "le van a",
+        "Date": "1-1-11111",
+        "Address": "ha long",
+        "Email": "email@gmail.com",
+        "PhoneNumber": "0356819502",
+        "CreateDate": "11-6-2024"
+      }
+    ],
+    "dm_giao_vien": [
+      {
+        "id": "1",
+        "ma": "m01",
+        "serial": "01",
+        "ho_dem": "Nguyen_van",
+        "ten": "Anh",
+        "ngay_sinh": "30-09-2003",
+        "gioi_tinh": "Nam",
+        "dia_chi": "Ha Noi",
+        "ma_don_vi": "MDV01",
+        "ten_don_vi": "School",
+        "ghi_chu": "ko",
+        "ID_GV": "GV001",
+        "Account": "Syhongmap",
+        "Password": "Matkhau",
+        "Role": "Giáo viên"
+      },
+      {
+        "id": "2",
+        "ma": "m02",
+        "serial": "02",
+        "ho_dem": "Nguyen_Van",
+        "ten": "B",
+        "ngay_sinh": "30-09-2003",
+        "gioi_tinh": "Nam",
+        "dia_chi": "Ha Noi",
+        "ma_don_vi": "MDV01",
+        "ten_don_vi": "School",
+        "ghi_chu": "ko",
+        "ID_GV": "GV002",
+        "Account": "Syhongmap2",
+        "Password": "Matkhau",
+        "Role": "Giáo viên"
+      },
+      {
+        "id": "3",
+        "ma": "m03",
+        "serial": "03",
+        "ho_dem": "Nguyen_Van",
+        "ten": "C",
+        "ngay_sinh": "30-09-2003",
+        "gioi_tinh": "Nu",
+        "dia_chi": "Ha Noi",
+        "ma_don_vi": "MDV01",
+        "ten_don_vi": "School",
+        "ghi_chu": "ko",
+        "ID_GV": "GV003",
+        "Account": "Syhongmap3",
+        "Password": "Matkhau",
+        "Role": "Giáo viên"
+      },
+      {
+        "id": "4",
+        "ma": "M04",
+        "serial": "04",
+        "ho_dem": "Nguyen_Van",
+        "ten": "D",
+        "ngay_sinh": "Ha Noi",
+        "gioi_tinh": "Nu",
+        "dia_chi": "Ha Noi",
+        "ma_don_vi": "MDV01",
+        "ten_don_vi": "School",
+        "ghi_chu": "ko",
+        "ID_GV": "GV004",
+        "Account": "Syhongmap4",
+        "Password": "Matkhau",
+        "Role": "Giáo viên"
+      },
+      {
+        "id": "5",
+        "ma": "m05",
+        "serial": "05",
+        "ho_dem": "Nguyen_Van",
+        "ten": "E",
+        "ngay_sinh": "30-09-2003",
+        "gioi_tinh": "Nam",
+        "dia_chi": "Ha Noi",
+        "ma_don_vi": "MDV01",
+        "ten_don_vi": "School",
+        "ghi_chu": "ko",
+        "ID_GV": "GV005",
+        "Account": "Syhongmap5",
+        "Password": "Matkhau",
+        "Role": "Giáo viên"
+      }
+    ],
+    "DM_BuoiHoc": [
+      {
+        "id": "1",
+        "BuoiHocID": 1,
+        "TenBuoiHoc": "Buoi 1",
+        "GhiChu": "ko",
+        "isChangeable": "yes",
+        "ID_BH": "BH001"
+      },
+      {
+        "id": "2",
+        "BuoiHocID": 2,
+        "TenBuoiHoc": "Buoi 2",
+        "GhiChu": "ko",
+        "isChangeable": "yes",
+        "ID_BH": "BH002"
+      },
+      {
+        "id": "3",
+        "BuoiHocID": 3,
+        "TenBuoiHoc": "Buoi 3",
+        "GhiChu": "ko",
+        "isChangeable": "yes",
+        "ID_BH": "BH003"
+      },
+      {
+        "id": "4",
+        "BuoiHocID": 4,
+        "TenBuoiHoc": "Buoi 4",
+        "GhiChu": "ko",
+        "isChangeable": "yes",
+        "ID_BH": "BH004"
+      },
+      {
+        "id": "5",
+        "BuoiHocID": 5,
+        "TenBuoiHoc": "Buoi 5",
+        "GhiChu": "ko",
+        "isChangeable": "yes",
+        "ID_BH": "BH005"
+      }
+    ],
+    "HS_LopHoc": [
+      {
+        "id": "1",
+        "LopHocID": 1,
+        "TenLopHoc": "Lop hoc 1",
+        "FK_HocKyID": "hk2",
+        "FK_NamHocID": "2023-2024",
+        "ID_LH": "LH001"
+      },
+      {
+        "id": "2",
+        "LopHocID": 2,
+        "TenLopHoc": "lop hoc 2",
+        "FK_HocKyID": "hk1",
+        "FK_NamHocID": "2023-2024",
+        "ID_LH": "LH002"
+      },
+      {
+        "id": "3",
+        "LopHocID": 3,
+        "TenLopHoc": "lop hoc 3",
+        "FK_HocKyID": "hk2",
+        "FK_NamHocID": "2023-2024",
+        "ID_LH": "LH003"
+      },
+      {
+        "id": "4",
+        "LopHocID": 4,
+        "TenLopHoc": "lop hoc 4",
+        "FK_HocKyID": "hk3",
+        "FK_NamHocID": "2023-2024",
+        "ID_LH": "LH004"
+      },
+      {
+        "id": "5",
+        "LopHocID": 5,
+        "TenLopHoc": "lop hoc 5",
+        "FK_HocKyID": "hk1",
+        "FK_NamHocID": "2023-2024",
+        "ID_LH": "LH005"
+      }
+    ],
+    "Feedback": [
+      {
+        "ID_Feedback": "FB0z1",
+        "id": "1",
+        "Content": "Nhà ăn thật tuyệt cà là vời , hương vị thật hoàn hảo úi úi úi rất vui vì là học sinh nhà trường"
+      },
+      {
+        "ID_Feedback": "FB0z2",
+        "id": "2",
+        "Content": "Nhà ăn thật tuyệt cà là vời , hương vị thật hoàn hảo úi úi úi rất vui vì là học sinh nhà trường"
+      },
+      {
+        "ID_Feedback": "FB0z3",
+        "id": "3",
+        "Content": "Nhà ăn thật tuyệt cà là vời , hương vị thật hoàn hảo úi úi úi rất vui vì là học sinh nhà trường"
+      },
+      {
+        "ID_Feedback": "FB0z4",
+        "id": "4",
+        "Content": "Nhà ăn thật tuyệt cà là vời , hương vị thật hoàn hảo úi úi úi rất vui vì là học sinh nhà trường"
+      },
+      {
+        "ID_Feedback": "FB0z5",
+        "id": "5",
+        "Content": "Nhà ăn thật tuyệt cà là vời , hương vị thật hoàn hảo úi úi úi rất vui vì là học sinh nhà trường"
+      }
+    ],
+    "login": [
+      {
+        "Account": "SyhongMap",
+        "Password": "Hoihoaivayma01@",
+        "id": "1"
+      },
+      {
+        "id": "3",
+        "Account": "Syhongmap",
+        "Password": "Matkhau"
+      },
+      {
+        "id": "4",
+        "Account": "Syhongmap",
+        "Password": "Matkhau"
+      },
+      {
+        "id": "",
+        "Account": "",
+        "Password": ""
+      },
+      {
+        "id": "A90",
+        "Account": "matkhau",
+        "Password": "matkhau"
+      }
+    ],
+    "Contact": [
+      {
+        "ID_Contact": "CTSK01",
+        "First_Name": "Sy Hong",
+        "Last_Name": "Map",
+        "Email": "Syhongmap@gmail.com",
+        "SDT": "0356819502",
+        "Content": "Thay oi cuu em ve viec khong load duoc trang thoi khoa bieu",
+        "id": "1"
+      },
+      {
+        "ID_Contact": "CTSK02",
+        "First_Name": "Sy Hong",
+        "Last_Name": "Map",
+        "Email": "Syhongmap@gmail.com",
+        "SDT": "0356819502",
+        "Content": "Thay oi cuu em ve viec khong load duoc trang thoi khoa bieu",
+        "id": "2"
+      },
+      {
+        "ID_Contact": "CTSK03",
+        "First_Name": "Sy Hong",
+        "Last_Name": "Map",
+        "Email": "Syhongmap@gmail.com",
+        "SDT": "0356819502",
+        "Content": "Thay oi cuu em ve viec khong load duoc trang thoi khoa bieu",
+        "id": "3"
+      },
+      {
+        "ID_Contact": "CTSK04",
+        "First_Name": "Sy Hong",
+        "Last_Name": "Map",
+        "Email": "Syhongmap@gmail.com",
+        "SDT": "0356819502",
+        "Content": "Thay oi cuu em ve viec khong load duoc trang thoi khoa bieu",
+        "id": "4"
+      }
+    ],
+    "chucdanh": [
+      {
+        "id": "1",
+        "ma_chucdanh": "gd1",
+        "t_chucdanh": "giam doc",
+        "manhomchucdanh": "n1",
+        "id_cd": "cd001"
+      },
+      {
+        "id": "2",
+        "ma_chucdanh": "gd2",
+        "t_chucdanh": "pho giam doc",
+        "manhomchucdanh": "n1",
+        "id_cd": "cd002"
+      },
+      {
+        "id": "3",
+        "ma_chucdanh": "ql1",
+        "t_chucdanh": "quan ly",
+        "manhomchucdanh": "q1",
+        "id_cd": "cd003"
+      },
+      {
+        "id": "4",
+        "ma_chucdanh": "ct1",
+        "t_chucdanh": "chu tich",
+        "manhomchucdanh": "c1",
+        "id_cd": "cd004"
+      },
+      {
+        "id": "5",
+        "ma_chucdanh": "ct2",
+        "t_chucdanh": "pho chu tich",
+        "manhomchucdanh": "c1",
+        "id_cd": "cd005"
+      }
+    ],
+    "DM_HocLuc": [
+      {
+        "id": "1",
+        "HocLucID": "g1",
+        "TenHocLuc": "gioi",
+        "GhiChu": "",
+        "id_hl": "hl01"
+      },
+      {
+        "id": "2",
+        "HocLucID": "k1",
+        "TenHocLuc": "kha gioi",
+        "GhiChu": "",
+        "id_hl": "hl02"
+      },
+      {
+        "id": "3",
+        "HocLucID": "tt1",
+        "TenHocLuc": "tien tien",
+        "GhiChu": "",
+        "id_hl": "hl03"
+      },
+      {
+        "id": "4",
+        "HocLucID": "tb1",
+        "TenHocLuc": "trung binh",
+        "GhiChu": "",
+        "id_hl": "hl04"
+      },
+      {
+        "id": "5",
+        "HocLucID": "k1",
+        "TenHocLuc": "kem",
+        "GhiChu": "",
+        "id_hl": "hl05"
+      }
+    ],
+    "HS_HoSoHocSinh": [
+      {
+        "id": "1",
+        "HocSinhID": "Hs01",
+        "Ten": "Nguyen Van A",
+        "NgaySinh": "15/01/2003",
+        "NoiSinh": "hai duong",
+        "GioiTinh": "nam",
+        "QueQuan": "hai duong",
+        "FK_QuocTichID": "vn1",
+        "FK_DanTocID": "k1",
+        "FK_TonGiaoID": "k0",
+        "Email": "nuly112211@gmail.com",
+        "DienThoai": "0329592847",
+        "GhiChu": ""
+      },
+      {
+        "id": "2",
+        "HocSinhID": "a02",
+        "Ten": "Le Van B",
+        "NgaySinh": "22/01/2003",
+        "NoiSinh": "hai duong",
+        "GioiTinh": "nam",
+        "QueQuan": "hai duong",
+        "FK_QuocTichID": "vn1",
+        "FK_DanTocID": "k1",
+        "FK_TonGiaoID": "k0",
+        "Email": "nuly@gmail.com",
+        "DienThoai": "0904790171",
+        "GhiChu": ""
+      },
+      {
+        "id": "3",
+        "HocSinhID": "a03",
+        "Ten": "Trinh Van A",
+        "NgaySinh": "02/9/2003",
+        "NoiSinh": "hoa binh",
+        "GioiTinh": "nam",
+        "QueQuan": "hoa binh",
+        "FK_QuocTichID": "vn1",
+        "FK_DanTocID": "k1",
+        "FK_TonGiaoID": "k0",
+        "Email": "va2003@gmail.com",
+        "DienThoai": "0123456789",
+        "GhiChu": ""
+      },
+      {
+        "id": "4",
+        "HocSinhID": "a04",
+        "Ten": "Trinh Van B",
+        "NgaySinh": "30/11/2003",
+        "NoiSinh": "hai duong",
+        "GioiTinh": "nu",
+        "QueQuan": "hai duong",
+        "FK_QuocTichID": "vn1",
+        "FK_DanTocID": "k1",
+        "FK_TonGiaoID": "k0",
+        "Email": "honganhle@gmail.com",
+        "DienThoai": "12123123",
+        "GhiChu": ""
+      },
+      {
+        "id": "5",
+        "HocSinhID": "a05",
+        "Ten": "Le Van A",
+        "NgaySinh": "31/05/2003",
+        "NoiSinh": "hai duong",
+        "GioiTinh": "nu",
+        "QueQuan": "hai duong",
+        "FK_QuocTichID": "vn1",
+        "FK_DanTocID": "k1",
+        "FK_TonGiaoID": "k0",
+        "Email": "lananhkdau@gmail.com",
+        "DienThoai": "0328178765",
+        "GhiChu": ""
+      }
+    ],
+    "HS_DanhSachTuyenSinh": [
+      {
+        "id": "1",
+        "FK_HocSinhID": 1,
+        "SBD": "D001",
+        "FK_NamHocID": "2023-2024",
+        "KhoiHoc": "THPT",
+        "FK_BanHocID": "Tu nhien",
+        "FK_MonHocID": "Toan",
+        "Diem": "9",
+        "isMonChuyen": "Toan",
+        "ID_TS": "TS001"
+      },
+      {
+        "id": "2",
+        "FK_HocSinhID": 2,
+        "SBD": "D002",
+        "FK_NamHocID": "2023-2024",
+        "KhoiHoc": "THPT",
+        "FK_BanHocID": "Tu nhien",
+        "FK_MonHocID": "Toan",
+        "Diem": "8",
+        "isMonChuyen": "Sinh",
+        "ID_TS": "TS002"
+      },
+      {
+        "id": "3",
+        "FK_HocSinhID": 3,
+        "SBD": "D003",
+        "FK_NamHocID": "2023-2024",
+        "KhoiHoc": "THPT",
+        "FK_BanHocID": "Tu nhien",
+        "FK_MonHocID": "Toan",
+        "Diem": "9",
+        "isMonChuyen": "Ly",
+        "ID_TS": "TS003"
+      },
+      {
+        "id": "4",
+        "FK_HocSinhID": 4,
+        "SBD": "D004",
+        "FK_NamHocID": "2023-2024",
+        "KhoiHoc": "THPT",
+        "FK_BanHocID": "Tu nhien",
+        "FK_MonHocID": "Toan",
+        "Diem": "10",
+        "isMonChuyen": "Hoa",
+        "ID_TS": "TS004"
+      },
+      {
+        "id": "5",
+        "FK_HocSinhID": 5,
+        "SBD": "D005",
+        "FK_NamHocID": "2023-2024",
+        "KhoiHoc": "THPT",
+        "FK_BanHocID": "Tu nhien",
+        "FK_MonHocID": "Toan",
+        "Diem": "9.5",
+        "isMonChuyen": "Toan",
+        "ID_TS": "TS005"
+      }
+    ],
+    "HS_BangDiemChiTietHocKy": [
+      {
+        "id": "1",
+        "FK_HocSinhID": 1,
+        "FK_MonHocID": "Toan",
+        "FK_LoaiDiemID": "Gioi",
+        "ThuTuDauDiemNhap": "Cao đến thấp",
+        "DiemSo": "9",
+        "FK_HocKyID": "HK2",
+        "FK_NamHocID": "2023-2024",
+        "HeSo": "2",
+        "isLocked": "asdfgg",
+        "ID_BD": "BD001"
+      },
+      {
+        "id": "2",
+        "FK_HocSinhID": 2,
+        "FK_MonHocID": "Toan",
+        "FK_LoaiDiemID": "Gioi",
+        "ThuTuDauDiemNhap": "Cao đến thấp",
+        "DiemSo": "9",
+        "FK_HocKyID": "HK2",
+        "FK_NamHocID": "2023-2024",
+        "HeSo": "2",
+        "isLocked": "asdfggh",
+        "ID_BD": "BD002"
+      },
+      {
+        "id": "3",
+        "FK_HocSinhID": 3,
+        "FK_MonHocID": "Toan",
+        "FK_LoaiDiemID": "Kha",
+        "ThuTuDauDiemNhap": "Cao đến thấp",
+        "DiemSo": "7",
+        "FK_HocKyID": "HK2",
+        "FK_NamHocID": "2023-2024",
+        "HeSo": "2",
+        "isLocked": "asđfgg",
+        "ID_BD": "BD003"
+      },
+      {
+        "id": "4",
+        "FK_HocSinhID": 4,
+        "FK_MonHocID": "Toan",
+        "FK_LoaiDiemID": "kha",
+        "ThuTuDauDiemNhap": "Cao đến thấp",
+        "DiemSo": "7.5",
+        "FK_HocKyID": "HK2",
+        "FK_NamHocID": "2023-2024",
+        "HeSo": "2",
+        "isLocked": "asđfg",
+        "ID_BD": "BD004"
+      },
+      {
+        "id": "5",
+        "FK_HocSinhID": 5,
+        "FK_MonHocID": "Toan",
+        "FK_LoaiDiemID": "Gioi",
+        "ThuTuDauDiemNhap": "Cao đến thấp",
+        "DiemSo": "8",
+        "FK_HocKyID": "HK2",
+        "FK_NamHocID": "2023-2024",
+        "HeSo": "2",
+        "isLocked": "asdfghh",
+        "ID_BD": "BD005"
+      }
+    ],
+    "DM_BanHoc": [
+      {
+        "id": "1",
+        "BanHocID": 1,
+        "TenBanHoc": "Tu nhien",
+        "GhiChu": "ko",
+        "isChangeable": "No",
+        "ID_BH": "BH001"
+      },
+      {
+        "id": "2",
+        "BanHocID": 2,
+        "TenBanHoc": "Tu nhien",
+        "GhiChu": "ko",
+        "isChangeable": "No",
+        "ID_BH": "BH002"
+      },
+      {
+        "id": "3",
+        "BanHocID": 3,
+        "TenBanHoc": "Tu nhien",
+        "GhiChu": "ko",
+        "isChangeable": "No",
+        "ID_BH": "BH003"
+      },
+      {
+        "id": "4",
+        "BanHocID": 4,
+        "TenBanHoc": "Tu nhien",
+        "GhiChu": "ko",
+        "isChangeable": "No",
+        "ID_BH": "BH004"
+      },
+      {
+        "id": "5",
+        "BanHocID": 5,
+        "TenBanHoc": "Tu nhien",
+        "GhiChu": "ko",
+        "isChangeable": "No",
+        "ID_BH": "BH005"
+      }
+    ],
+    "HS_DiemThi": [
+      {
+        "id": "1",
+        "DiemThi": "1"
+      },
+      {
+        "id": "2",
+        "DiemThi": "2"
+      },
+      {
+        "id": "3",
+        "DiemThi": "3"
+      },
+      {
+        "id": "4",
+        "DiemThi": "4"
+      },
+      {
+        "id": "5",
+        "DiemThi": "5"
+      },
+      {
+        "id": "6",
+        "DiemThi": "6"
+      },
+      {
+        "id": "7",
+        "DiemThi": "7"
+      },
+      {
+        "id": "8",
+        "DiemThi": "8"
+      },
+      {
+        "id": "9",
+        "DiemThi": "9"
+      },
+      {
+        "id": "10",
+        "DiemThi": "10"
+      }
+    ],
+    "FK_MonThi": [
+      {
+        "id": "1",
+        "FK_MonHocID": "Toan",
+        "TenMon": "Toán"
+      },
+      {
+        "id": "2",
+        "FK_MonHocID": "Ly",
+        "TenMon": "Lý"
+      },
+      {
+        "id": "3",
+        "FK_MonHocID": "Hoa",
+        "TenMon": "Hóa"
+      },
+      {
+        "id": "4",
+        "FK_MonHocID": "NV",
+        "TenMon": "Ngữ Văn"
+      },
+      {
+        "id": "5",
+        "FK_MonHocID": "LS",
+        "TenMon": "Lịch Sử"
+      },
+      {
+        "id": "6",
+        "FK_MonHocID": "DL",
+        "TenMon": "Địa Lý"
+      },
+      {
+        "id": "7",
+        "FK_MonHocID": "SH",
+        "TenMon": "Sinh Học"
+      },
+      {
+        "id": "8",
+        "FK_MonHocID": "TA",
+        "TenMon": "Tiếng Anh"
+      },
+      {
+        "id": "9",
+        "FK_MonHocID": "GDCD",
+        "TenMon": "Giáo Dục Công Dân"
+      },
+      {
+        "id": "10",
+        "FK_MonHocID": "CN",
+        "TenMon": "Công Nghệ"
+      },
+      {
+        "id": "11",
+        "FK_MonHocID": "GDQP",
+        "TenMon": "Giáo Dục Quốc Phòng"
+      },
+      {
+        "id": "12",
+        "FK_MonHocID": "TH",
+        "TenMon": "Tin Học"
+      }
+    ],
+    "students": [
+      {
+        "student_id": "HS001",
+        "student_name": "Nguyen Van A",
+        "student_age": 17,
+        "class": "12A1",
+        "id": "1",
+        "scores": [
+          {
+            "subject_name": "Toán",
+            "score": 8.5
+          },
+          {
+            "subject_name": "Ngữ văn",
+            "score": 7
+          },
+          {
+            "subject_name": "Tiếng Anh",
+            "score": 8
+          },
+          {
+            "subject_name": "Vật lý",
+            "score": 9
+          },
+          {
+            "subject_name": "Hóa học",
+            "score": 8.5
+          },
+          {
+            "subject_name": "Sinh học",
+            "score": 8
+          },
+          {
+            "subject_name": "Lịch sử",
+            "score": 7.5
+          },
+          {
+            "subject_name": "Địa lý",
+            "score": 7
+          },
+          {
+            "subject_name": "Giáo dục công dân",
+            "score": 8.5
+          },
+          {
+            "subject_name": "Công nghệ",
+            "score": 8
+          },
+          {
+            "subject_name": "Thể dục",
+            "score": 9
+          },
+          {
+            "subject_name": "Tin học",
+            "score": 8.5
+          }
+        ],
+        "Account": "Syhongbeo",
+        "Password": "Matkhau",
+        "Role": "Hoc Sinh"
+      },
+      {
+        "student_id": "HS002",
+        "student_name": "Tran Thi B",
+        "student_age": 18,
+        "class": "12A2",
+        "id": "3",
+        "scores": [
+          {
+            "subject_name": "Toán",
+            "score": 7.5
+          },
+          {
+            "subject_name": "Ngữ văn",
+            "score": 8
+          },
+          {
+            "subject_name": "Tiếng Anh",
+            "score": 7.5
+          },
+          {
+            "subject_name": "Vật lý",
+            "score": 8
+          },
+          {
+            "subject_name": "Hóa học",
+            "score": 7.5
+          },
+          {
+            "subject_name": "Sinh học",
+            "score": 8.5
+          },
+          {
+            "subject_name": "Lịch sử",
+            "score": 7
+          },
+          {
+            "subject_name": "Địa lý",
+            "score": 7.5
+          },
+          {
+            "subject_name": "Giáo dục công dân",
+            "score": 8
+          },
+          {
+            "subject_name": "Công nghệ",
+            "score": 7.5
+          },
+          {
+            "subject_name": "Thể dục",
+            "score": 8
+          },
+          {
+            "subject_name": "Tin học",
+            "score": 7.5
+          }
+        ],
+        "Account": "Syhongbeo2",
+        "Password": "Matkhau",
+        "Role": "Hoc Sinh"
+      },
+      {
+        "student_id": "HS003",
+        "student_name": "Le Van C",
+        "student_age": 17,
+        "class": "12A3",
+        "id": "3",
+        "scores": [
+          {
+            "subject_name": "Toán",
+            "score": 9
+          },
+          {
+            "subject_name": "Ngữ văn",
+            "score": 6.5
+          },
+          {
+            "subject_name": "Tiếng Anh",
+            "score": 9.5
+          },
+          {
+            "subject_name": "Vật lý",
+            "score": 8.5
+          },
+          {
+            "subject_name": "Hóa học",
+            "score": 9
+          },
+          {
+            "subject_name": "Sinh học",
+            "score": 8.5
+          },
+          {
+            "subject_name": "Lịch sử",
+            "score": 7.5
+          },
+          {
+            "subject_name": "Địa lý",
+            "score": 7
+          },
+          {
+            "subject_name": "Giáo dục công dân",
+            "score": 8
+          },
+          {
+            "subject_name": "Công nghệ",
+            "score": 8
+          },
+          {
+            "subject_name": "Thể dục",
+            "score": 9
+          },
+          {
+            "subject_name": "Tin học",
+            "score": 8.5
+          }
+        ],
+        "Account": "Syhongbeo3",
+        "Password": "Matkhau",
+        "Role": "Hoc Sinh"
+      },
+      {
+        "student_id": "HS004",
+        "student_name": "Pham Thi D",
+        "student_age": 18,
+        "class": "12A4",
+        "id": "4",
+        "scores": [
+          {
+            "subject_name": "Toán",
+            "score": 8
+          },
+          {
+            "subject_name": "Ngữ văn",
+            "score": 7.5
+          },
+          {
+            "subject_name": "Tiếng Anh",
+            "score": 8.5
+          },
+          {
+            "subject_name": "Vật lý",
+            "score": 8
+          },
+          {
+            "subject_name": "Hóa học",
+            "score": 7.5
+          },
+          {
+            "subject_name": "Sinh học",
+            "score": 7
+          },
+          {
+            "subject_name": "Lịch sử",
+            "score": 7.5
+          },
+          {
+            "subject_name": "Địa lý",
+            "score": 8
+          },
+          {
+            "subject_name": "Giáo dục công dân",
+            "score": 8.5
+          },
+          {
+            "subject_name": "Công nghệ",
+            "score": 8
+          },
+          {
+            "subject_name": "Thể dục",
+            "score": 7.5
+          },
+          {
+            "subject_name": "Tin học",
+            "score": 8.5
+          }
+        ],
+        "Account": "Syhongbeo4",
+        "Password": "Matkhau",
+        "Role": "Hoc Sinh"
+      },
+      {
+        "student_id": "HS005",
+        "student_name": "Hoang Van E",
+        "student_age": 17,
+        "class": "12A5",
+        "id": "5",
+        "scores": [
+          {
+            "subject_name": "Toán",
+            "score": 8.5
+          },
+          {
+            "subject_name": "Ngữ văn",
+            "score": 7
+          },
+          {
+            "subject_name": "Tiếng Anh",
+            "score": 8.5
+          },
+          {
+            "subject_name": "Vật lý",
+            "score": 8
+          },
+          {
+            "subject_name": "Hóa học",
+            "score": 8.5
+          },
+          {
+            "subject_name": "Sinh học",
+            "score": 7.5
+          },
+          {
+            "subject_name": "Lịch sử",
+            "score": 7
+          },
+          {
+            "subject_name": "Địa lý",
+            "score": 7.5
+          },
+          {
+            "subject_name": "Giáo dục công dân",
+            "score": 8
+          },
+          {
+            "subject_name": "Công nghệ",
+            "score": 8
+          },
+          {
+            "subject_name": "Thể dục",
+            "score": 8.5
+          },
+          {
+            "subject_name": "Tin học",
+            "score": 7.5
+          }
+        ],
+        "Account": "Syhongbeo5",
+        "Password": "Matkhau",
+        "Role": "Hoc Sinh"
+      }
+    ],
+    "admin": [
+      {
+        "ID_Admin": "001",
+        "Account": "admin",
+        "Password": "admin123",
+        "id": "1"
+      },
+      {
+        "ID_Admin": "002",
+        "Account": "admin",
+        "Password": "admin12",
+        "id": "2"
+      }
+    ]
+  }

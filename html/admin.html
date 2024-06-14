@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../public/css/tailwind.css">
+    <link rel="stylesheet" href="../Css/admin.css">
+    <link rel="stylesheet" href="../Css/app.css">
+    <title>Trang chủ admin</title>
+</head>
+<body>
+    <div class="grid grid-flow-col grid-cols-[max-content] h-[100vh]" >
+        <!-- gui content -->
+        <div class="gui-content pt-[30px] bg-[#001C41] text-[#fff] lg:overflow-auto">
+            <div class="avatar flex flex-col justify-center items-center ">
+                <img src="../img/avatar-ad.jpg" alt="" class="w-[150px] h-[150px] rounded-[50%] border-[#fff] border-[2px] mb-5">
+                <h2 class="text-center mb-[10px] font-semibold text-[20px]">Sỹ Hông Mạp</h2>
+                <p class="border-b-[1px] border-[#fff] mb-[10px] pb-[10px] italic opacity-[0.5]">Chào mừng bạn đã trở lại</p>
+            </div>
+            <div class="nav-content">
+                <ul class="nav-admin">
+                    <a href="manager_user.html"><li>Quản lý người dùng</li></a>
+                    <a href="manager_feedback.html"><li>Quản lý feedback nhà ăn</li></a>
+                    <a href="manager_contact.html"><li>Quản lý liên hệ</li></a>
+                    <a href="manager_poi.html"><li>Quản lý bảng điểm</li></a>
+                    <a href=""><li>Quản lý thời khóa biểu</li></a>
+                </ul>
+            </div>
+        </div>
+        <div class="content ">
+            <div class="bg-[#001C41] h-[20px]"></div>
+            <div class="body-content">
+                <div class="text-center text-[32px] font-semibold mt-[30px] mb-[30px]">
+                    <h1>Chào mừng bạn đã trở lại với trang chủ admin</h1>
+                </div>
+                <div class="main-content mt-[30px]">
+                    <div class="flex ml-[160px] items-start mt-[70px]">
+                        <div class="p-[10px] pl-[20px] bg-[#EFF3FA] rounded-xl container-center">
+                            <a href="manager_user.html" class="">
+                            <i class="hover:text-[#fe5e0e] fa-solid fa-user text-[28px] mr-[10px] text-[#13296A]"></i>
+                        </a>
+                        </div>
+                        <div class="ml-[30px] w-[100vh]">
+                            <h1 class="text-[24px] text-[#4F4F4F] font-semibold">Quản lý người dùng</h1>
+                            <p class="text-[20px] text-[#4F4F4F] font-medium">Khi bạn chọn sẽ xem được thông tin các cá nhân người dùng </p>
+                        </div>
+                    </div>
+                    <div class="flex ml-[160px] items-start mt-[70px]">
+                        <div class="p-[10px] pl-[20px] bg-[#EFF3FA] rounded-xl container-center">
+                            <a href="" class="">
+                            <i class="hover:text-[#fe5e0e] fa-solid fa-comment text-[28px] mr-[10px] text-[#13296A]"></i>
+                        </a>
+                        </div>
+                        <div class="ml-[30px] w-[100vh]">
+                            <h1 class="text-[24px] text-[#4F4F4F] font-semibold">Quản lý feedback nhà ăn</h1>
+                            <p class="text-[20px] text-[#4F4F4F] font-medium">Khi bạn chọn sẽ xem và xóa được thông tin feedback mà người dùng gửi để lại</p>
+                        </div>
+                    </div>
+                    <div class="flex ml-[160px] items-start mt-[70px]">
+                        <div class="p-[10px] pl-[20px] bg-[#EFF3FA] rounded-xl container-center">
+                            <a href="" class="">
+                            <i class="hover:text-[#fe5e0e] fa-solid fa-phone text-[28px] mr-[10px] text-[#13296A]"></i>
+                        </a>
+                        </div>
+                        <div class="ml-[30px] w-[100vh]">
+                            <h1 class="text-[24px] text-[#4F4F4F] font-semibold">Quản lý liên hệ</h1>
+                            <p class="text-[20px] text-[#4F4F4F] font-medium">Khi bạn chọn sẽ xem được thông tin liên hệ mà người dùng gửi cho mình để mình liên hệ</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <!-- ket thuc -->
+    </div>
+</body>
+</html>

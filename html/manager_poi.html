@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="../public/css/tailwind.css">
+    <link rel="stylesheet" href="../Css/admin.css">
+    <link rel="stylesheet" href="../Css/app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Quản lý bảng điểm </title>
+</head>
+
+<body>
+    <div class="grid grid-flow-col grid-cols-[max-content] h-[100vh]">
+        <!-- gui content -->
+        <div class="gui-content pt-[30px] bg-[#001C41] text-[#fff] lg:overflow-auto ">
+            <div class="avatar flex flex-col justify-center items-center ">
+                <img src="../img/avatar-ad.jpg" alt=""
+                    class="w-[150px] h-[150px] rounded-[50%] border-[#fff] border-[2px] mb-5">
+                <h2 class="text-center mb-[10px] font-semibold text-[20px]">Sỹ Hông Mạp</h2>
+                <p class="border-b-[1px] border-[#fff] mb-[10px] pb-[10px] italic opacity-[0.5]">Chào mừng bạn đã trở
+                    lại</p>
+            </div>
+            <div class="nav-content">
+                <ul class="nav-admin">
+                    <a href="manager_user.html">
+                        <li>Quản lý người dùng</li>
+                    </a>
+                    <a href="manager_feedback.html">
+                        <li>Quản lý feedback nhà ăn</li>
+                    </a>
+                    <a href="manager_contact.html">
+                        <li>Quản lý liên hệ</li>
+                    </a>
+                    <a href="manager_poi.html">
+                        <li>Quản lý bảng điểm</li>
+                    </a>
+                    <a href="">
+                        <li>Quản lý thời khóa biểu</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <div class="content ">
+            <div class="pl-8 mt-[30px] border-b">
+                <h1 class="text-[32px] font-semibold text-[#fe5e0e]">Quản lý bảng điểm</h1>
+                <ul class="menu-admin">
+                    <li class="iteam-feedback border-b-[3px] border-[#7c5fe3]">View Bảng Điểm</li>
+                </ul>
+            </div>
+            <!-- noi dung chinh -->
+            <div class="search-body pt-8 ml-8">
+                <input type="text" placeholder="Tìm kiếm"
+                    class="border-[2px] rounded-[20px] outline-none focus:border-[#7c5fe3] h-10 pl-[20px] ">
+                <button
+                    class="ml-8 bg-[#f5f5f5] h-10 pl-[30px] pr-[30px] rounded-[10px] text-[#000] font-medium border-[2px] border-[#7c5fe3] ">Tìm
+                    kiếm</button>
+            </div>
+            <div class="view-feedback">
+                <!--  -->
+                <div class="view-user text-[14px] mt-8 mb-8 ml-6 mr-6 flex items-center justify-center flex-col">
+                    <div class="view-poi border border-[#e6e9ed] rounded-lg shadow-xl">
+                        <!--  -->
+                        <table >
+                            <thead class="bg-gray-900">
+                                <tr>
+                                    <th>ID Học Sinh</th>
+                                    <th>Tên học sinh</th>
+                                    <th>Tên môn học</th>
+                                    <th>Điểm</th>
+                                    <th>Tên lớp</th>
+                                </tr>
+                            </thead>
+                            <tbody class="body-poi">
+                                <tr>
+                                    <td>SV001BK</td>
+                                    <td>Sy Hong Map</td>
+                                        <td>Toán</td>
+                                    <td>8.5</td>
+                                    <td>10A3</td>
+                                    <td>
+                                        <!-- option active -->
+                                        <div class=" flex justify-center items-center">
+                                            <i
+                                                class="ml-5 mt-5 mb- 5 cursor-pointer hover:text-[#fe5e0e] fa-solid fa-user-pen"></i>
+                                            <i
+                                                class="ml-5 mt-5 mb- 5 cursor-pointer hover:text-[#fe5e0e] fa-solid fa-trash"></i>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <!-- viet view js -->
+            </div>
+        </div>
+    </div>
+    <script src="../js/poi.js"></script>
+    <!-- ket thuc -->
+
+</body>
+
+</html>

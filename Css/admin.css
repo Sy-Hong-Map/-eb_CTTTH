@@ -1,0 +1,38 @@
+.w-full {
+    width: 100%;
+}
+.h-full {
+    height: 100%;
+}
+/* code admin nav */
+.nav-admin li {
+    margin-top: 20px;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.nav-admin li:hover {
+    cursor: pointer;
+    background-color: #fe5e0e;
+}
+/* ket thuc */
+
+/* manager user */
+.menu-admin li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+
+/* ket thuc */
+/* view user */
+.view-user th , .view-user td{
+    padding: 15px ;
+    border-bottom: 1px solid #e6e9ed;
+    border-radius: 20px;
+}
