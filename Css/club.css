@@ -1,0 +1,280 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Helvetica,  Arial, sans-serif;
+}
+
+
+#main{
+
+}
+/* common */
+
+.col-third{
+    width: 33.33333%;
+}
+
+
+
+/* common */
+
+/* begin header */
+#header{
+    margin: 7px 158px;
+}
+#header .top-header{
+    display: flex;
+    justify-content: space-between;
+}
+#header .logo-header img{
+    width: 256px;
+}
+
+.header-item {
+    display: flex;
+    align-items: center;
+}
+
+#header .seach-btn{
+    position: relative;
+    height: 40px;
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    padding: 0 16px;
+}
+
+.ip-seach {
+    display: block;
+    height: 100%;
+}
+
+.ip-seach {
+    width: 347px;
+    padding-left: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+}
+.language-btn {
+    margin-left: 16px;
+    margin-top: -9px;
+}
+ .language-btn >a img{
+    width: 22px;
+    height: 19px;
+    margin-top: 10px;
+
+}
+#header .bt-header{
+    display: flex;
+    justify-content: space-between;
+}
+ #nav {
+    display: flex;
+    list-style: none;
+}
+#nav li,
+#user li{
+    padding: 0px 15px;
+    position: relative;
+}
+#nav > li:hover{
+    border-bottom: 2px solid #cf6a18;
+
+}
+#nav > li >a{
+    text-transform: uppercase;
+}
+#nav li:hover .subnav,
+#user li:hover .subnav{
+    display: block;
+}
+#nav .subnav{
+    display: none;
+    min-width: 160px;
+    top: 106%;
+    left: 0;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    list-style: none;
+    padding: 10px 10px;
+}
+#nav .subnav a{
+    width: 155px;
+}
+.subnav > li{
+    border-bottom: outset;
+    margin-bottom: 6px;
+}
+#nav > li > a ,
+#nav .subnav a,
+#user .subnav a{
+    text-decoration: none;
+    color: #000;
+    display: block;
+    line-height: 31px;
+
+}
+#user {
+    list-style: none;
+}
+#user .user-icon{
+    line-height: 33px;
+    color: #000;
+    font-size: 25px;
+    cursor: pointer;
+}
+#user .subnav{
+    display: none;
+    min-width: 160px;
+    top: 100%;
+    right: 0;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    list-style: none;
+    
+}
+#user .subnav a{
+    width: 178px;
+}
+.subnav li:hover {
+    color: #223771;
+}
+
+/* end header */
+#slide{
+    padding-top: 33%;
+    background: url('/acest/img/slider/slider1.png') top center / cover no-repeat;
+}
+/* begin content */
+
+#content{
+    display: flex;
+    justify-content: space-between;
+    margin: 82px 88px;
+
+}
+#content .club-section{
+}
+.club-section .section-heading{
+    font-size: 28px;
+    border-bottom: 3px solid #cf6a18;
+    display: inline-block;
+    padding-bottom: 6px;
+    margin-bottom: 30px ;
+}
+.club-section .sub-section-heading{
+    text-align: justify;
+    margin-right: 60px;
+    margin-bottom: 20px;
+}
+.club-section  .member-list{
+    list-style: none;
+}
+.club-section  .member-list li{
+    margin-bottom: 25px;
+}
+.member-list .member-img{
+    width: 562px;
+}
+.member-list .member-name{
+    text-align: center;
+    opacity: 0.7;
+}
+
+
+#content .club-cover{
+}
+.club-cover .member-club-cover {
+    width: 446px;
+}
+
+/* end content */
+
+#footer{
+
+}
+.wrap{
+    width: 100%;
+    background: #fcfcfc;
+    line-height: 1.625;
+}
+.wrap .row{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 92px;
+    margin-right: 92px;
+}
+.widget-area1 table{
+    width: 100%;
+    border: none;
+    
+}
+.widget-area1{
+    font-size: 14px;
+}
+.widget-area1 th{
+    color: #f26522;
+    text-align: left;
+    text-transform: unset;
+    display: -webkit-box;
+}
+th , td{
+    padding: 4px 14px;
+}
+.widget-area2 {
+    margin-left: 108px;
+}
+.widget-area3 {
+    text-align: right;
+}
+.widget-area3::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.widget-area1 .alignnone-lg{
+    width: 256px;
+    margin: 15px 0;
+
+}
+
+.widget-area1 .text-widget,
+.widget-area2 .text-widget,
+.widget-area3 .text-widget
+{
+    list-style: none;
+    /* font-size: 14px;  */
+}
+.widget-title{
+    color: chocolate;
+    margin-top: 20px;
+    margin-bottom: 38px;
+}
+.text-widget{
+    font-size: 15px;
+}
+.text-widget .text-member{
+    margin-bottom: 15px;
+    font-size: 14px;
+
+}
+#footer .copyright{
+    text-align: center;
+    border-top: 10px solid #f26522;
+    background: #223771;
+    color: #fff;
+    font-size: 13px;
+    line-height: 30px;
+}
+
