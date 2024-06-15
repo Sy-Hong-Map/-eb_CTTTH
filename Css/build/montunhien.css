@@ -1,0 +1,146 @@
+.slider {
+    padding-top: 50%;
+    background: url(../anh/AnhHeaderCSVC.webp) top center / cover no-repeat;
+}
+
+.content-header {
+    margin-top: 32px;
+}
+
+.content-list {
+    width: 70%;
+    padding: 0 24px;
+}
+
+.content-Document {
+    height: 210px;
+    display: flex;
+    margin-top: 8px;
+}
+
+.content-conment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 16px;
+    background-color: #ccc;
+}
+
+.content-Document-img {
+    height: 100%;
+    width: 310px;
+    display: block;
+}
+
+.content-item {
+    width: 1120px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.content-body {
+    margin-top: 16px;
+    display: flex;
+    margin-left: -24px;
+    margin-right: -24px;
+}
+
+.content-import {
+    margin-top: 8px;
+    width: 30%;
+    padding: 0 24px;
+}
+
+.content-import-form {
+    background-color: #EB753C;
+}
+
+.content-import-title {
+    text-align: center;
+    padding-top: 32px;
+}
+
+.content-bodyy {
+    padding: 0 16px;
+    margin-top: 8px;
+}
+
+.content-body-input {
+    display: block;
+    width: 100%;
+    border-radius: 25px;
+    padding: 8px 16px;
+    border: none;
+    outline: none;
+    margin-top: 8px;
+}
+
+.xem {
+    text-align: right;
+    padding: 0 24px;
+}
+
+.content-import-button {
+    padding: 8px 32px;
+    background-color: #CF4122;
+    border: none;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border-radius: 25px;
+    color: #fff;
+}
+
+.footer {
+    background-color: #ccc;
+    margin-top: 46px;
+}
+
+.footer-img {
+    margin-bottom: 32px;
+}
+
+.content-footer {
+    padding: 32px 0;
+    width: 1200px;
+    margin-right: auto;
+    display: flex;
+    margin-left: auto;
+    justify-content: space-between;
+}
+
+.footer-img {
+    width: 256px;
+}
+
+.lis-footer li {
+    margin-top: 8px;
+    list-style-type: none;
+}
+
+.lis-footer li a {
+    text-decoration: none;
+    color: black;
+}
+
+.lis-footer h3 a {
+    color: black;
+    text-decoration: none;
+}
+
+.Orange {
+    height: 25px;
+    background-color: #F26522;
+}
+
+.copyright a {
+    color: #fff;
+    margin: 0 8px;
+}
+
+.end {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #223771;
+    color: #fff;
+}

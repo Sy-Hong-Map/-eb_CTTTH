@@ -1,0 +1,51 @@
+.slider {
+    padding-top: 50%;
+    background: url(../anh/AnhHeaderCSVC.webp) top center / cover no-repeat;
+}
+
+.content-item {
+    width: 1120px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.content-header {
+    margin-top: 32px;
+}
+
+.content-text {
+    margin-top: 16px;
+    text-align: justify;
+}
+
+.content-library {
+    width: 100%;
+    height: 500px;
+    margin-top: 16px;
+    border-radius: 4px;
+}
+
+.content-list {
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -40px;
+    margin-left: -40px;
+}
+
+.content-warehouse {
+    width: 25%;
+    padding: 0 40px;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.content-book-img {
+    width: 100%;
+    height: 300px;
+    border-radius: 4px;
+}
+
+.content-list-name {
+    margin-top: 16px;
+}

@@ -1,0 +1,39 @@
+.slider {
+    padding-top: 50%;
+    background: url(../anh/AnhHeaderCSVC.webp) top center / cover no-repeat;
+}
+
+.content {
+    margin-top: 32px;
+}
+
+.content-text {
+    margin-top: 16px;
+    text-align: justify;
+}
+
+.content-item {
+    display: flex;
+    justify-content: space-between;
+    width: 1120px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.content-list1 {
+    width: 700px;
+}
+
+.content-list2 {
+    width: 376px;
+}
+
+.content-img {
+    width: 100%;
+    margin-top: 16px;
+}
+
+.content-widget {
+    width: 100%;
+    margin-bottom: 16px;
+}
