@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./build/style.css">
+    <link rel="stylesheet" href="./build/build.css">
+</head>
+<body>
+    <div class="wapper">
+        <div id="header">
+            <div class="flex items-center justify-between ">
+                <div class="logo-header">
+                    <img class="w-full h-full" src="./anh/logo.png" alt="School">
+                </div>
+                <div class="flex items-center">
+                    <div class="search-btn">
+                        <input class="ip-search" type="text" placeholder="Tim kiem...">
+                        <i class="icon-search fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="language-btn flex">
+                        <a href="#"><img class="mr-2" src="./anh/CoVietNam.jpg" alt="VN"></a>
+                        <a href="#"><img src="./anh/CoMy.jpg" alt="My"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="bt-header flex justify-between">
+                <ul id="nav">
+                    <li><a href="#">Tổng quan </a>
+                        <ul class="subnav">
+                            <li><a href="#">Đội ngũ giáo viên</a></li>
+                            <li><a href="#">Cơ sở vật chất</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Thời khóa biểu</a>
+                        <ul class="subnav">
+                            <li><a href="#">Thời khóa biểu lớp</a></li>
+                            <li><a href="#">Thời khóa biểu xuất</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Thư viện - Tài liệu</a>
+                        <ul class="subnav">
+                            <li><a href="#">Tài liệu môn học </a></li>
+                            <li><a href="#">Thư viện ảnh</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Tuyển sinh</a>
+                        <ul class="subnav">
+                            <li><a href="#">Nội quy nhà trường</a></li>
+                            <li><a href="#">Đăng kí tuyển sinh</a></li>
+                            <li><a href="#">Quy trình</a></li>
+                        </ul>
+                    </li>
+                    <li> <a href="#">Hoạt động </a>
+                        <ul class="subnav">
+                            <li><a href="#">Tin tức</a></li>
+                            <li><a href="#">Sự kiện</a></li>
+                            <li><a href="#">Câu lạc bộ</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Liên hệ</a></li>
+                </ul>
+                <div class="user js-user">
+                    <i class="px-4 fa-solid fa-user"></i>
+                </div>
+            </div>
+        </div>
+        <div class="modal js-modal">
+            <div class="form js-form">
+                <div class="modalo">
+                    <div class="modalo-item flex items-center justify-center">
+                        <img class="modalo-img w-14" src="./anh/student.jpg" alt="">
+                        <p class="modalo-text ml-2">CỔNG THÔNG TIN ĐIỆN TỬ</p>
+                    </div>
+                    <div class="modalo-list">
+                        <p class="list-text text-center">Chào mừng bạn đến với hệ thống <span class="span">cổng thông tin điện tử</span></p>
+                        <p class="list-login text-center">Bạn tham gia với tư cách:</p>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="container-item flex items-center p-5">
+                        <img class="container-img w-20" src="./anh/student.jpg" alt="">
+                        <div class="container-list ml-4">
+                            <p class="student">HỌC SINH</p>
+                            <p class="student-text">Hệ thống truyền thông và quản lý</p>
+                        </div>
+                    </div>
+                    <div class="container-panes active">
+                        <div class="container-pane flex">
+                            <div class="pane-item">
+                                <p class="pane-account">Bạn chưa có tài khoản?</p>
+                                <a href="./login.html"><button class="activated">Kích hoạt Mã SV</button></a>
+                            </div>
+                            <div class="pane-btn">
+                                <p class="pane-account">Bạn đã có tài khoản?</p>
+                                <a href="./login.html"><button class="login-now" >Đăng nhập ngay</button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="container-item flex items-center p-4">
+                        <img class="container-img w-20" src="./anh/teacher.jpg" alt="">
+                        <div class="container-list ml-4">
+                            <p class="student">CÁN BỘ/VIÊN CHỨC</p>
+                            <p class="student-text">Nền tảng quản trị Hành chính/Tác nghiệp</p>
+                        </div>
+                    </div>
+                    <div class="container-panes active">
+                        <div class="container-pane flex">
+                            <div class="pane-item">
+                                <p class="pane-account">Thầy cô chưa có tài khoản?</p>
+                                <a href="./login.html"><button class="activated">Đăng ký CBGV</button></a>
+                            </div>
+                            <div class="pane-btn">
+                                <p class="pane-account">Thầy cô đã có tài khoản?</p>
+                                <a href="./login.html"><button class="login-now">Đăng nhập ngay</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="container-item flex items-center p-5">
+                        <img class="container-img w-20" src="./anh/visitor.jpg" alt="">
+                        <div class="container-list ml-4">
+                            <p class="student">KHÁCH</p>
+                            <p class="student-text">Tôi không thuộc Bộ Giáo Dục và Đào Tạo</p>
+                        </div>
+                    </div>
+                    <div class="container-panes active">
+                        <div class="container-pane flex">
+                            <div class="pane-item">
+                                <p class="pane-account">Tìm hiểu thêm thông tin?</p>
+                                <a href="./login.html"><button class="activated">Truy cập website</button></a>
+                            </div>
+                            <div class="pane-btn">
+                                <p class="pane-account">Bạn đã có tài khoản?</p>
+                                <a href="./index.html"><button class="login-now">Quay lại</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const modal = document.querySelector('.js-modal')
+        const user = document.querySelector('.js-user')
+        const form = document.querySelector('.js-form')
+        function show() {
+            modal.classList.add('open')
+        }
+        function hide() {
+            modal.classList.remove('open')
+        }
+        user.addEventListener('click', show)
+        modal.addEventListener('click', hide)
+        form.addEventListener('click', function(even) {
+            even.stopPropagation()
+        })
+    </script>
+    <script>
+        const pens = document.querySelectorAll('.container-item')
+        pens.forEach(pen => {
+            pen.addEventListener('click', function () {
+                const chitiets = document.querySelectorAll('.container-panes')
+                chitiets.forEach(chitiet => {
+                    chitiet.classList.add('active')
+                })
+                const parent = pen.closest('.container')
+                const chi = parent.querySelector('.container-panes')
+                chi.classList.remove('active')
+            })
+        })
+        document.addEventListener('click', function (e) {
+            const box = document.querySelector('.form')
+        //kiem tra
+            if (!box.contains(e.target)) {
+                const chitiets = document.querySelectorAll('.container-panes')
+                chitiets.forEach(chitiet => {
+                    chitiet.classList.add('active')
+                })
+            }
+        })
+    </script>
+</body>
+</html>
+
+
+
