@@ -3,42 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
     <title>Document</title>
-    <link rel="stylesheet" href="./build/style.css">
-    <link rel="stylesheet" href="./build/login.css">
 </head>
 <body>
-    <div class="wrapper">
+    <div class="wapper">
         <div class="header">
             <div class="header-item">
                 <img class="header-img" src="./anh/student.jpg" alt="">
                 <p class="header-text">CỔNG THÔNG TIN ĐIỆN TỬ</p>
             </div>
-            <img class="header-background" src="./anh/bg-uni.jpg" alt="">
-            <form action="" id="form">
-                <div class="login">
-                    <img  class="form-img" src="./anh/wh2.jpg" alt="">
-                    <div class="phu"></div>
+            <div class="header-list">
+                <p class="list-text">Chào mừng bạn đến với hệ thống cổng thông tin điện tử</p>
+                <p class="list-login">Bạn tham gia với tư cách:</p>
+            </div>
+        </div>
+        <div class="slider">
+            <div class="slider-item">
+                <img class="slider-img" src="./anh/student.jpg" alt="">
+                <div class="slider-list">
+                    <p class="student">HỌC SINH</p>
+                    <p class="student-text">Hệ thống truyền thông và quản lý</p>
                 </div>
-                <p class="form-text">Đăng nhập</p>
-                <div class="slider">
-                    <div class="header-form">
-                        <input class="form-input" type="text" name="" id="" placeholder="MA ID | SO DIEN THOAI | EMAIL">
-                        <input class="form-input" type="text" name="" id="" placeholder="MAT KHAU">
+            </div>
+            <div class="slider-panes active">
+                <div class="slider-pane ">
+                    <div class="pane-item">
+                        <p class="pane-account">Bạn chưa có tài khoản?</p>
+                        <button class="activated">Kích hoạt Mã SV</button>
                     </div>
-                    <div class="flex justify-between">
-                        <div class="footer-item">
-                            <p class="save">Lưu mật khẩu</p>
-                            <p class="help">Cần hỗ trọ?</p>
-                            <p class="forget">Quên mật khẩu?</p>
-                        </div>
-                        <div class="footer-item">
-                            <button class="btn-login">Đăng nhập</button>
-                        </div>
+                    <div class="pane-btn">
+                        <p class="pane-account">Bạn đã có tài khoản?</p>
+                        <a href="./hi.html"><button class="login-now" >Đăng nhập ngay</button>
+                        </a>
                     </div>
                 </div>
-            </form>
+            </div>
+        </div>
+        <div class="slider">
+            <div class="slider-item">
+                <img class="slider-img" src="./anh/student.jpg" alt="">
+                <div class="slider-list">
+                    <p class="student">CÁN BỘ/VIÊN CHỨC</p>
+                    <p class="student-text">Nền tảng quản trị Hành chính/Tác nghiệp</p>
+                </div>
+            </div>
+            <div class="slider-panes active">
+                <div class="slider-pane">
+                    <div class="pane-item">
+                        <p class="pane-account">Thầy cô chưa có tài khoản?</p>
+                        <button class="activated">Đăng ký CBGV</button>
+                    </div>
+                    <div class="pane-btn">
+                        <p class="pane-account">Thầy cô đã có tài khoản?</p>
+                        <button class="login-now">Đăng nhập ngay</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider">
+            <div class="slider-item">
+                <img class="slider-img" src="./anh/student.jpg" alt="">
+                <div class="slider-list">
+                    <p class="student">KHÁCH</p>
+                    <p class="student-text">Tôi không thuộc Bộ Giáo Dục và Đào Tạo</p>
+                </div>
+            </div>
+            <div class="slider-panes active">
+                <div class="slider-pane">
+                    <div class="pane-item">
+                        <p class="pane-account">Tìm hiểu thêm thông tin?</p>
+                        <button class="activated">Truy cập website</button>
+                    </div>
+                    <div class="pane-btn">
+                        <p class="pane-account">Bạn đã có tài khoản?</p>
+                        <button class="login-now">Quay lại</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+    <script src="./login.js"></script>
 </body>
 </html>
